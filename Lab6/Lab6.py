@@ -89,7 +89,6 @@ def main():
                 temp_best_point = participant_points_sum
             elif participant_points_sum == temp_best_point:
                 temp_best_participant.append(participant)
-
         participant_favorites.extend(temp_best_participant)
         last_best_point = temp_best_point
         place_index += 1
